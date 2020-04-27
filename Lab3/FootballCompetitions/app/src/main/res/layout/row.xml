@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+
+<!--
+    <ImageView
+        android:id="@+id/flagImage"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_background"/>-->
+
+    <TextView
+        android:id="@+id/rowNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="CompanyDefault"
+        android:paddingTop="10dp"
+        android:paddingLeft="24dp"/>
+
+</LinearLayout>
