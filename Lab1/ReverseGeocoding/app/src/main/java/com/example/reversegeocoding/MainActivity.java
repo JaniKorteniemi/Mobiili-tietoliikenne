@@ -56,10 +56,10 @@ public class MainActivity extends AppCompatActivity {
                             // Got last known location. In some rare situations this can be null.
                             if (location != null) {
 
-                               // double lat = location.getLatitude();
-                               // double lon = location.getLongitude();
-                                double lat = 65.01;
-                                double lon = 25.47;
+                                double lat = location.getLatitude();
+                                double lon = location.getLongitude();
+                                //double lat = 65.01;
+                                //double lon = 25.47;
 
                                 try {
                                     addresses = geo.getFromLocation(lat, lon, 1);
